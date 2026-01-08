@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+#headpart{
+  color:blue;
+  text-align: center;
+}
+
+#FooterPart{
+  color: rgb(234, 18, 18);
+  text-align: center;
+}
