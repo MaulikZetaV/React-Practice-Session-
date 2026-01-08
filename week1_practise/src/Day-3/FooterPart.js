@@ -5,7 +5,7 @@ export default function FooterPart() {
     <div>
         <footer id = "FooterPart">
             <p>
-                This file is created by <a href='https://in.linkedin.com/in/maulik-thakur'>Maulik Thakur</a><br></br>
+                This file is created by @Maulik_Thakur<br></br>
                <b>All rights are reserved by Zeta-V Technology.</b>
             </p>
         </footer>
