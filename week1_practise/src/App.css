@@ -1,48 +1,94 @@
-.App {
-  text-align: center;
+/* ---------- RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ---------- HEADER ---------- */
+#headpart {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(187, 113, 142);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#headpart h1 {
   color: white;
+  font-size: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ---------- MAIN LAYOUT ---------- */
+.main-layout {
+  display: flex;
+  margin-top: 12vh;              /* space for fixed header */
+  min-height: calc(100vh - 24vh);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ---------- SIDEBAR ---------- */
+.sidebar {
+  width: 200px;
+  background-color: #757880;
+  color: white;
+  padding: 20px;
+
+  position: sticky;
+  top: 12vh;                     /* below header */
+  height: calc(100vh - 12vh);
 }
 
-#headpart{
-  color:blue;
+.sidebar-title {
+  font-size: 22px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-#FooterPart{
-  color: rgb(234, 18, 18);
+.sidebar-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.sidebar-nav a:hover {
+  color: black;
+}
+
+/* ---------- PAGE CONTENT ---------- */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* ---------- FOOTER ---------- */
+#FooterPart {
+  height: 12vh;
+  background-color: rgb(187, 113, 142);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
 }
+
+#FooterPart p {
+  color: white;
+  font-size: 18px;
+}
+
+.page-content > * {
+  padding: 20px;          /* space inside component */
+  margin-bottom: 50px;    /* space between components */
+}
+
+

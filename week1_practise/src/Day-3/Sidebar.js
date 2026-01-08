@@ -1,12 +1,12 @@
 import React from 'react'
-import "./Sidebar.css";
+
 
 
 export default function Sidebar() {
   return (
     <div>
         <aside className="sidebar">
-        <h2 className="sidebar-title"> Learning Session Dashboard</h2>
+        <h2 className="sidebar-title">Dashboard</h2>
         <nav className="sidebar-nav">
         <a href="../App.js">Home</a>
         <a href="https://github.com/MaulikZetaV/React-Practice-Session-">ReactJS Repo</a>
