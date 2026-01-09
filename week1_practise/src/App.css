@@ -36,7 +36,7 @@
 /* ---------- SIDEBAR ---------- */
 .sidebar {
   width: 200px;
-  background-color: #757880;
+  background-color: #8b8289;
   color: white;
   padding: 20px;
 
@@ -65,8 +65,8 @@
 /* ---------- PAGE CONTENT ---------- */
 .page-content {
   flex: 1;
-  padding: 20px;
-  background-color: #f5f5f5;
+  padding: 10px;
+  background-color: #eeebebae;
 }
 
 /* ---------- FOOTER ---------- */
