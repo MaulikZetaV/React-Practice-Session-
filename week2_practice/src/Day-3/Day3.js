@@ -28,11 +28,7 @@ export default function Day3() {
     <RoleBased/>
     <br/>
     <Loading/>
-    <br/>
-
-    <br/>
-
-    <br/>
+  
     </div>
   )
 }
