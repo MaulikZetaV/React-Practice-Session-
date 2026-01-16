@@ -65,7 +65,7 @@ function MiniProject2() {
 
       <h4>Part 1: Counter</h4>
 
-      <button onClick={() => setShowCounter(true)}>Show Counter</button><br />
+      <button onClick={() => setShowCounter(prev => !prev )}>Show Counter</button><br />
 
       {showCounter && (
         <>
