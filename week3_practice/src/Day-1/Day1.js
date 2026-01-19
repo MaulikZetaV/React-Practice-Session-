@@ -9,19 +9,26 @@ import CompoMount from './Practice/CompoMount'
 import CompoMount2 from './Practice/CompoMount2'
 import CompoUpdate from './Practice/CompoUpdate'
 import ConditionalUpdate from './Practice/ConditionalUpdate'
+import TogglingMounting from './Practice/TogglingMounting'
+import BasicUseEffect from './CompoLoaded'
+import Counter from './DocumentTitle'
+import DependendArray from './DependArray'
 
 export default function Day1() {
   return (
     <div>
-        <h3>Day-1 of React Learning</h3>
+        <h2><b>Day-1 of React Learning</b></h2>
+        
+        <BasicUseEffect/>
         <br/>
-
+        <Counter/>
         <br/>
+        <DependendArray/>
 
+        <br/><br/>
         <br/>
-
         <h3>Self-Practice Session of Day-1</h3>
-        <br/>   
+          
         <UseEffect/>
         <br/>
         <EmptyDependancy/>
@@ -42,13 +49,7 @@ export default function Day1() {
         <br/>
         <ConditionalUpdate/>
         <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
+        <TogglingMounting/>
         <br/>
     </div>
   )
