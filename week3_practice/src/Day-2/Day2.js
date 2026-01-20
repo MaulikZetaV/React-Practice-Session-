@@ -1,11 +1,12 @@
 import React from 'react'
+import FetchUserData from './FetchData'
 
 export default function Day2() {
   return (
         <div>
         <h3>Day-2 of React Learning</h3>
         <br/>
-
+        <FetchUserData/>
         <br/>
 
         <br/>
