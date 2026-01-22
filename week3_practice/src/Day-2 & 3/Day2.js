@@ -14,6 +14,8 @@ import UsersWithLoading from './Loading'
 import UsersWithError from './DataStoreError'
 import ErrorPut from './Practice/ErrorPut'
 import ErrorDelete from './Practice/ErrorDelete'
+import UserCard from './UserCard'
+import LoadingMessage from './Loading2'
 
 export default function Day2() {
   return (
@@ -26,9 +28,14 @@ export default function Day2() {
         <br/>
         <UsersWithError/>
         <br/>
+        <UserCard/>
+        <br/>
+        <LoadingMessage/>
+        <br/>
 
         <br/>
 
+        <br/>
         <h3>Self-Practice Session of Day-2 & 3</h3>
         <br/>   
         <NewUser/>
@@ -62,17 +69,6 @@ export default function Day2() {
 
         <br/>
 
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
     </div>
 
     
