@@ -5,6 +5,7 @@ import MultipleSearch from './Practice/SingleMultiple'
 import SearchCondtion from './Practice/SearchCondtion'
 import NumberSearch from './Practice/NumberSearch'
 import FilterOnlyButton from './Practice/FilterOnly'
+import UserSearchTask from './ZetaVTask'
 
 export default function Day4() {
   return (
@@ -14,15 +15,11 @@ export default function Day4() {
         <CountryDashBoard/>
         
         <br/>
-        <h3>Task from Zeta-V</h3>
         <br/>
-
+        <h3>Task</h3>
+        
+        <UserSearchTask/>
         <br/>
-
-        <br/>
-
-        <br/>
-
         <br/>
 
         <h3>Self-Practice Session of Day-4</h3>
@@ -37,24 +34,6 @@ export default function Day4() {
         <br/>
         <FilterOnlyButton/>
         <br/>
-
-        <br/>
-
-        <br/>
-        
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
        
     </div>
 
