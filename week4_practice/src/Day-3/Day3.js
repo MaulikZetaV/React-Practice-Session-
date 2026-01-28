@@ -1,3 +1,5 @@
+import AutoFocusInput from "./AutoFoucsInput";
+import CountRenders from "./CountRender";
 import FocusInput from "./Example";
 import ClickCounter from "./Practice/ClickCounter";
 import Counter from "./Practice/Counter";
@@ -6,6 +8,7 @@ import DomValueRef from "./Practice/DomValueRef";
 import String from "./Practice/String";
 import Time from "./Practice/Time";
 import ValueRef from "./Practice/ValueRef";
+import PreviousValueDisplay from "./StoreValues";
 import PreviousDisplay from "./useEffect + useState + useRef/PreviousDisplay";
 import RenderDetector from "./useEffect + useState + useRef/RenderDetector";
 import AutoFocus from "./useRef + useEffect/AutoFocus";
@@ -58,33 +61,14 @@ export default function Day3() {
         <br/>
         <RenderDetector/>
         <br/>
-
+        <h3>Task from Zeta-V</h3>
         <br/>
-
+        <AutoFocusInput/>
         <br/>
-
+        <CountRenders/>
         <br/>
+        <PreviousValueDisplay/>
         <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
-        <br/>
-
         <br/>
     </div>
   )
