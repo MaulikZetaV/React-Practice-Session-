@@ -23,7 +23,7 @@ export default function Day3() {
     <div>
         <h2><b>Day-3 of React Learning</b></h2>
         <h3>Self-Practice Session of Day-3</h3>
-        <br/>
+        
         <FocusInput/>
         <br/>
         <ClickCounter/>
@@ -40,8 +40,9 @@ export default function Day3() {
         <br/>
         <DomValueRef/>
         <br/>
-        <h3>useRef + useState(Understanding & Practice)</h3>
         <br/>
+        <h3>useRef + useState(Understanding & Practice)</h3>
+        
         <CounterExample/>
         <br/>
         <InputChangeTracker/>
@@ -50,19 +51,22 @@ export default function Day3() {
         <br/>
         <SessionActionTracker/>
         <br/>
-        <h3>useRef + useEffect(Understanding & Practice)</h3>
         <br/>
+        <h3>useRef + useEffect(Understanding & Practice)</h3>
+        
         <AutoFocus/>
         <br/>
         <PreviousValue/>
+        <br/>
         <br/>
         <h3>useRef + useEffect+ useState(Understanding & Practice)</h3>
         <PreviousDisplay/>
         <br/>
         <RenderDetector/>
         <br/>
-        <h3>Task from Zeta-V</h3>
         <br/>
+        <h3>Task from Zeta-V</h3>
+        
         <AutoFocusInput/>
         <br/>
         <CountRenders/>
@@ -70,6 +74,7 @@ export default function Day3() {
         <PreviousValueDisplay/>
         <br/>
         <br/>
+        
     </div>
   )
 }
