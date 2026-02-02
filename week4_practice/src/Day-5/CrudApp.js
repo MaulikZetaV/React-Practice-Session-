@@ -1,11 +1,12 @@
 import { useState } from "react";
+import ItemForm from "./ItemForm";
 
 function CrudApp() {
   const [items, setItems] = useState([]);
   const [input, setInput] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const handleAddOrUpdate = () => {
+  const handleSubmit = () => {
     if (input === "") return;
 
     if (editId === null) {
@@ -33,18 +34,14 @@ function CrudApp() {
 
   return (
     <div>
-      <h3>MINI PROJECT:CRUD List App</h3>
+      <h3>MINI PROJECT:CRUD App</h3>
 
-      <input
-        type="text"
-        value={input}
-        placeholder="Enter item"
-        onChange={(e) => setInput(e.target.value)}
+      <ItemForm
+        input={input}
+        setInput={setInput}
+        onSubmit={handleSubmit}
+        isEdit={editId !== null}
       />
-
-      <button onClick={handleAddOrUpdate}>
-        {editId ? "Update" : "Add"}
-      </button>
 
       <ul>
         {items.map(item => (

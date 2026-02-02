@@ -1,0 +1,94 @@
+/* ---------- RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- HEADER ---------- */
+#headpart {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(102, 45, 77);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#headpart h1 {
+  color: white;
+  font-size: 35px;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+.main-layout {
+  display: flex;
+  margin-top: 12vh;              /* space for fixed header */
+  min-height: calc(100vh - 24vh);
+}
+
+/* ---------- SIDEBAR ---------- */
+.sidebar {
+  width: 200px;
+  background-color: #575757;
+  color: white;
+  padding: 20px;
+
+  position: sticky;
+  top: 12vh;                     /* below header */
+  height: calc(100vh - 12vh);
+}
+
+.sidebar-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.sidebar-nav a:hover {
+  color: black;
+}
+
+/* ---------- PAGE CONTENT ---------- */
+.page-content {
+  flex: 1;
+  padding: 10px;
+  background-color: #eeebebae;
+}
+
+/* ---------- FOOTER ---------- */
+#FooterPart {
+  height: 12vh;
+  background-color: rgb(102, 45, 77);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+#FooterPart p {
+  color: white;
+  font-size: 18px;
+}
+
+.page-content > * {
+  padding: 20px;          /* space inside component */
+  margin-bottom: 50px;    /* space between components */
+}
+
+
