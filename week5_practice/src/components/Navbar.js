@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav style={{ padding: "10px", background: "#f0f0f0" }}>
-      <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
+      <ul>
         <li>
-          <Link to="/">Studied</Link>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/studied">Studied</Link>
         </li>
         <li>
           <Link to="/profile">Profile</Link>
