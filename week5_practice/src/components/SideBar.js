@@ -6,7 +6,7 @@ export default function Sidebar() {
       <aside className="sidebar">
         <h2 className="sidebar-title">Dashboard</h2>
         <nav className="sidebar-nav">
-          <a href="../App.js">Home</a>
+          <a href="./pages/Home.js">Home</a>
           <a href="https://github.com/MaulikZetaV/React-Practice-Session-">
             ReactJS Repo
           </a>

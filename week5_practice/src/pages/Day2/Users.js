@@ -19,7 +19,7 @@ function Users() {
         {users.map((user) => (
           <li key={user.id}>
             <Link to={`${user.id}`}>
-              {user.name} – {user.role} ({user.company})
+              {user.name}
             </Link>
           </li>
         ))}
