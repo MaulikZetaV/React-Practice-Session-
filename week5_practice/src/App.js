@@ -36,6 +36,8 @@ function App() {
         <Sidebar />
 
         <div className="page-content">
+          <h1>{process.env.REACT_APP_NAME}</h1>
+      
           <Routes>
             <Route path="/" element={<Home />} />
 
