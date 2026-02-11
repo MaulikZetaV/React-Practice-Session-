@@ -1,0 +1,16 @@
+.mini-project-2 {
+  max-width: 700px;
+}
+
+.mini-project-2 input {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.mini-project-2 ul {
+  margin-top: 12px;
+}
+
+.error {
+  color: red;
+}

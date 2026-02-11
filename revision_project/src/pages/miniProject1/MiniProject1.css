@@ -1,0 +1,10 @@
+.mini-project-1 {
+  max-width: 600px;
+}
+
+.mini-project-1 button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  background-color: #ffffff;
+}
